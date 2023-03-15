@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Rubik Iso', cursive;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+header, section h2, section h3, from button {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: normal;
+}
+
+body {
+    font-family: 'Hind', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: black;
+}
+
+body > header {
+    background-color: rgb(62, 128, 0);
+    padding: 16px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-links img {
+    height: 36px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+    margin-right: 12px;
+}
+
+section h2,
+.articles article {
+    margin-bottom: 24px;
+}
+
+.articles article h3 {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    height: 250px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article a {
+    color: rgb(136, 184, 91);
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none
+}
+
+section h2 {
+    color: rgb(229, 229, 137);
+}
+
+section h3 {
+    color: rgb(136, 184, 91);
+}
+
+form input,
+form button {
+    font-family: 'Hind', sans-serif;
+    display: block;
+    width: 250px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    background-color: rgb(229, 229, 137);
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 18px;
+}
+
+form button:hover {
+    background-color: #f4f801;
+}
+
+input:focus {
+    outline-color: rgb(229, 229, 137);
+}
+
+footer {
+    background-color: rgb(62, 128, 0);
+    color: #ecf0f1;
+    padding: 12px 0;
+}
